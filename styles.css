@@ -1,0 +1,150 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, p, a, blockquote {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for centered content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header h2 {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+
+/* Hero section styles */
+#hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Benefits section styles */
+#benefits {
+    padding: 2rem 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#benefits h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.benefit-item {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-item img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.benefit-text {
+    max-width: 60%;
+    text-align: left;
+}
+
+.benefit-text h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.benefit-text p {
+    font-size: 1rem;
+}
+
+/* Call to Action section styles */
+#cta {
+    background: #27ae60;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#cta h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#cta p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background: #fff;
+    color: #27ae60;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #ddd;
+}
+
+/* Social Proof section styles */
+#social-proof {
+    padding: 2rem 0;
+    background: #e9ecef;
+    text-align: center;
+}
+
+#social-proof h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    font-size: 1rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-left: 4px solid #27ae60;
+    background: #fff;
+    max-width: 80%;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+/* Footer styles */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
